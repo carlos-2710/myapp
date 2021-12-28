@@ -17,6 +17,7 @@ services:
       - "80:5000"
     environment:
       - PORT=5000
+      - NOMBRE=Carlos
     volumes:
       - ./myapp/app:/app
     depends_on:
